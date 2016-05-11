@@ -1,4 +1,5 @@
 print ("You enter a dark room with two doors. Do you go through door #1 or door #2?")
+
 door = input(">")
 
 if door == "1":
@@ -28,5 +29,6 @@ elif door == "2":
     else:
         print ("The instanity rots your eyes into a pool of muck. Good job!")
 
+#1도 아니고 #2도 아님
 else:
     print ("You stumble around and fall on a knife and die. Good job!")
